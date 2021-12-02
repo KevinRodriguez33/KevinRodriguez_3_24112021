@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &__title{
+        @include flex-center;
+        align-items: center;
+        padding: 10px 0;
+        z-index: 1;
+        box-shadow: 2px 2px 2px 1px $color-box-shadow;
+    }
+    
+}
+.map{
+    @include flex-center;
+    padding: 15px 0;
+    background-color: $color-background;
+    .fa-map-marker-alt{
+        padding-right: 10px;
+    }
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

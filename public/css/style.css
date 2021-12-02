@@ -1,1 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: "Shrikhand";
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.header__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 1;
+  box-shadow: 2px 2px 2px 1px #cfcfcf;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: #eaeaea;
+}
+.map .fa-map-marker-alt {
+  padding-right: 10px;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
